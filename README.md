@@ -1,4 +1,4 @@
-valley-of-uncanny-01-long
-=========================
+valley-of-uncanny-01
+====================
 
-Interactive music visualizer, long edit
+webgl music visualizer  - long version
