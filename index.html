@@ -87,14 +87,14 @@
 			#modal-content
 			{
 				font-size: 10pt;
+				line-height: 16pt;
 			    position: relative;
 			    left: 100%;
 			    height: auto;
 			    width: 50%; 
 			    max-width: 500px;
 			    min-width: 80px;
-			    max-height: 80%;
-			    min-height: 80px;
+
 			    margin: 0 auto;
 			    border: 1px solid;
 			    background: #333333;
@@ -134,6 +134,7 @@
 			</div>
 			<div id="musicarea">
 				<audio id="audio" preload="auto" controls="">
+					<source type="audio/ogg" src="audio/ZackChrist-Tungo.ogg"></source>
 					<source type="audio/mpeg" src="audio/ZackChrist-Tungo.mp3"></source>
 					Sorry, but this music player does not work in this browser.
 				</audio>
@@ -148,8 +149,13 @@
 		            <td id="modal-td">
 		                <div id="modal-content">
 		                    <div id="modal-body">
-		                    <p>You can click and drag in the window to change your angle of view</p>
-		                    <button id="toggler" class="showing">OK</button>
+		                    	<p>You can click and drag in the window to change your angle of view</p>
+		                    	<p>If the animation is not smooth:
+		                    	<ul>
+								  <li>Try making your window smaller</li>
+								  <li>Google Chrome is recommended for better playback</li>
+								</ul>
+								<p><button id="toggler" class="showing">OK</button></p>
 		                    </div>
 		                </div>
 		            </td>
